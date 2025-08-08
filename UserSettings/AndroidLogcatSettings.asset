@@ -1,13 +1,62 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "R58MA4G17GA",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R58MA4G17GA",
+        "name": "com.unity.template.cat_family_ar_application",
+        "processId": 23380,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 12011,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 12986,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 13456,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 13905,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 14247,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 15868,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 21755,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 23380,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -41,9 +90,20 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 0.0,
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "Behavior": 0
     },
