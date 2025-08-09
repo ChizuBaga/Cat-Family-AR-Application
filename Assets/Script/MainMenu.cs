@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void ViewCatFamily()
     {
-        SceneManager.LoadSceneAsync(1); // AR Scene
+        SceneManager.LoadSceneAsync("Cat_Object"); // AR Scene
     }
 
     public void PlayQuiz()
     {
-        SceneManager.LoadSceneAsync(0); // Quiz Scene
+        SceneManager.LoadSceneAsync(0); // Quiz Scene, not yet
     }
 
     public void Quit()
