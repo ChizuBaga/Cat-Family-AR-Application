@@ -1,13 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public AudioSource audio;
-    // Start is called before the first frame update
-    public void playButton()
+    public void ViewCatFamily()
     {
-        audio.Play();
+        SceneManager.LoadSceneAsync(1); // AR Scene
+    }
+
+    public void PlayQuiz()
+    {
+        SceneManager.LoadSceneAsync(0); // Quiz Scene
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
