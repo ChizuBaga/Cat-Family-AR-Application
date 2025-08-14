@@ -36,11 +36,21 @@ public class TakePhoto : MonoBehaviour
         // Save to persistent data path
         string timestamp = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
         string fileName = fileNamePrefix + timestamp + ".png";
+        //string folderPath = "/storage/emulated/0/Pictures/Screenshots";
+        // Change to public path
+        //string pubfilName = folderPath + fileName;
         string filePath = Path.Combine(Application.persistentDataPath, fileName);
 
         File.WriteAllBytes(filePath, imageBytes);
 
         Debug.Log("Photo saved to: " + filePath);
+
+#if UNITY_ANDROID
+        AndroidJavaClass mediaScan = new AndroidJavaClass("android.media.MediaScannerConnection");
+        AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        AndroidJavaObject context = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+        mediaScan.CallStatic("scanFile", context, new string[] { filePath }, null, null);
+#endif
 
     }
 }

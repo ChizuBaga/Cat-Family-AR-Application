@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58MA4G17GA",
         "name": "com.unity.template.cat_family_ar_application",
-        "processId": 12361,
+        "processId": 16185,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,175 +11,61 @@
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 12011,
+            "processId": 32713,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 1540,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 2979,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 4245,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA4G17GA",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 5699,
             "exited": false
         },
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 12986,
+            "processId": 6499,
             "exited": false
         },
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 13456,
+            "processId": 7570,
             "exited": false
         },
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 13905,
+            "processId": 11834,
             "exited": false
         },
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 14247,
+            "processId": 15528,
             "exited": false
         },
         {
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
-            "processId": 15868,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 21755,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 23380,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 5700,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 11628,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 14206,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 15523,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 16394,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 24561,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 26381,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 27322,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 28443,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 29239,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 29798,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 32120,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 2969,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 4480,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 5481,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 6559,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 7650,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 8709,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 9391,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 11110,
-            "exited": false
-        },
-        {
-            "deviceId": "R58MA4G17GA",
-            "name": "com.unity.template.cat_family_ar_application",
-            "processId": 12361,
+            "processId": 16185,
             "exited": false
         }
     ],
