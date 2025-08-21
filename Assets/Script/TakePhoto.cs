@@ -46,6 +46,7 @@ public class TakePhoto : MonoBehaviour
         Debug.Log("Photo saved to: " + filePath);
 
 #if UNITY_ANDROID
+
         AndroidJavaClass mediaScan = new AndroidJavaClass("android.media.MediaScannerConnection");
         AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject context = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
