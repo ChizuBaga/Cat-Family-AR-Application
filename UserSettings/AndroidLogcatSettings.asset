@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "R58MA4G17GA",
+    "m_SelectedDeviceId": "AKJBVB3113001317",
     "m_SelectedPackage": {
-        "deviceId": "R58MA4G17GA",
+        "deviceId": "AKJBVB3113001317",
         "name": "com.unity.template.cat_family_ar_application",
-        "processId": 16185,
+        "processId": 16465,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,24 @@
             "deviceId": "R58MA4G17GA",
             "name": "com.unity.template.cat_family_ar_application",
             "processId": 16185,
+            "exited": false
+        },
+        {
+            "deviceId": "AKJBVB3113001317",
+            "name": "com.hihonor.android.launcher",
+            "processId": 4072,
+            "exited": false
+        },
+        {
+            "deviceId": "AKJBVB3113001317",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 13863,
+            "exited": true
+        },
+        {
+            "deviceId": "AKJBVB3113001317",
+            "name": "com.unity.template.cat_family_ar_application",
+            "processId": 16465,
             "exited": false
         }
     ],

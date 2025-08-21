@@ -2235,7 +2235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 3bb6bf8e329ec624f9fa7dbd66c45a34, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8180521006151436864, guid: 3bb6bf8e329ec624f9fa7dbd66c45a34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3929,7 +3929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6799699720999697043, guid: ce4b080d429ff0e4eaeeadac017b6415, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5319,7 +5319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 323f5fc353224a741a984601de26dd48, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8242418500645930098, guid: 323f5fc353224a741a984601de26dd48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5899,8 +5899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5433080ac75145ba066285b41201d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  captureButton: {fileID: 14110783}
-  fileNamePrefix: ARPhoto_
 --- !u!4 &1843121761
 Transform:
   m_ObjectHideFlags: 0
@@ -7474,7 +7472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 947104a78bcdd9b4e80cefb20350d627, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8179369319781505508, guid: 947104a78bcdd9b4e80cefb20350d627, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8091,7 +8089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2459321355267057453, guid: d0756f05962cc0344ac97ee70fba5f57, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2996939022272200612, guid: d0756f05962cc0344ac97ee70fba5f57, type: 3}
       propertyPath: m_RootOrder
