@@ -188,7 +188,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1843121760}
         m_TargetAssemblyTypeName: TakePhoto, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: TakeScreenshot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,28 +1,31 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class TakePhoto : MonoBehaviour
 {
-    public void TakeScreenshotButton()
+    public void TakeScreenshot()
     {
         StartCoroutine(TakeScreenshotAndSave());
     }
 
     private IEnumerator TakeScreenshotAndSave()
     {
-        yield return new WaitForEndOfFrame(); // Wait until the frame is rendered
+        yield return new WaitForEndOfFrame();
 
         Texture2D ss = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
         ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         ss.Apply();
 
-        // Save the screenshot to the Gallery/Photos
-        NativeGallery.SaveImageToGallery(ss, "GalleryTest", "Image.png", (success, path) =>
+        string filename = "Screenshot_" + System.DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".png";
+
+        NativeGallery.SaveImageToGallery(ss, "GalleryTest", filename, (success, path) =>
         {
-            Debug.Log("Media save result: " + success + " Path: " + path);
+            if (success)
+                Debug.Log("Saved to: " + path);
+            else
+                Debug.Log("Failed to save screenshot!");
         });
 
-        // Free memory
         Destroy(ss);
     }
 }
